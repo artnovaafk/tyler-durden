@@ -1,0 +1,10 @@
+{
+  "name": "tyler-durden",
+  "version": "0.1.0",
+  "description": "Second-opinion agent in every session: Tyler Durden — a read-only subagent who challenges the main agent's decisions at forks (architecture, risky ops, stuck points, plan reviews), searches the web, explains obscure things — and can never touch the work. The narrator decides what to do with his words.",
+  "author": { "name": "artno" },
+  "agents": "./agents",
+  "skills": "./skills",
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands"
+}

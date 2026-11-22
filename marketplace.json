@@ -1,0 +1,17 @@
+{
+  "name": "tyler-durden",
+  "plugins": [
+    {
+      "name": "tyler-durden",
+      "source": "./tyler-durden",
+      "version": "0.1.0",
+      "description": "Second-opinion agent in every session: Tyler Durden — a read-only subagent who challenges the main agent at decision forks, searches the web, explains obscure things — and can never touch the work.",
+      "displayName": "Tyler Durden",
+      "displayName_i18n": { "ru-RU": "Тайлер Дёрден" },
+      "description_i18n": {
+        "ru-RU": "Второе мнение в каждой сессии: Тайлер — субагент-критик только на чтение. Возражает на развилках (архитектура, рискованные действия, застрял, ревью плана), ищет в интернете, объясняет. Работу не трогает — решает основной агент, слепо следовать запрещено."
+      },
+      "category": "developer-tools"
+    }
+  ]
+}

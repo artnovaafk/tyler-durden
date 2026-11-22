@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="-apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="340" fill="#ffffff"/>
+
+  <g>
+    <rect x="24" y="36" width="168" height="104" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="24" y="36" width="168" height="28" rx="10" fill="#ddf4ff"/>
+    <rect x="24" y="54" width="168" height="10" fill="#ddf4ff"/>
+    <text x="108" y="55" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0969da">Основной агент</text>
+    <text x="108" y="86" text-anchor="middle" font-size="11" fill="#59636e">на развилке: архитектура,</text>
+    <text x="108" y="102" text-anchor="middle" font-size="11" fill="#59636e">риск, застрял, ревью</text>
+    <text x="108" y="118" text-anchor="middle" font-size="11" fill="#59636e">плана</text>
+  </g>
+  <line x1="192" y1="88" x2="210" y2="88" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="213" y="36" width="168" height="104" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="213" y="36" width="168" height="28" rx="10" fill="#f6f8fa"/>
+    <text x="297" y="55" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2328">Бриф</text>
+    <text x="297" y="86" text-anchor="middle" font-size="11" fill="#59636e">решение и контекст,</text>
+    <text x="297" y="102" text-anchor="middle" font-size="11" fill="#59636e">план, что уже пробовал,</text>
+    <text x="297" y="118" text-anchor="middle" font-size="11" fill="#59636e">вопрос — без истории диалога</text>
+  </g>
+  <line x1="381" y1="88" x2="399" y2="88" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="402" y="36" width="168" height="104" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="402" y="36" width="168" height="28" rx="10" fill="#dafbe1"/>
+    <rect x="402" y="54" width="168" height="10" fill="#dafbe1"/>
+    <text x="486" y="55" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1a7f37">Тайлер</text>
+    <text x="486" y="86" text-anchor="middle" font-size="11" fill="#59636e">read-only субагент:</text>
+    <text x="486" y="102" text-anchor="middle" font-size="11" fill="#59636e">файлы, веб-поиск;</text>
+    <text x="486" y="118" text-anchor="middle" font-size="11" fill="#59636e">возражай честно</text>
+  </g>
+  <line x1="570" y1="88" x2="588" y2="88" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="591" y="36" width="168" height="104" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="591" y="36" width="168" height="28" rx="10" fill="#f6f8fa"/>
+    <text x="675" y="55" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2328">Отчёт ≤300 слов</text>
+    <text x="675" y="86" text-anchor="middle" font-size="11" fill="#59636e">Вердикт, Возражения,</text>
+    <text x="675" y="102" text-anchor="middle" font-size="11" fill="#59636e">Упущенное, Риски,</text>
+    <text x="675" y="118" text-anchor="middle" font-size="11" fill="#59636e">Альтернатива, Источники</text>
+  </g>
+  <line x1="759" y1="88" x2="777" y2="88" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="780" y="36" width="156" height="104" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="780" y="36" width="156" height="28" rx="10" fill="#dafbe1"/>
+    <rect x="780" y="54" width="156" height="10" fill="#dafbe1"/>
+    <text x="858" y="55" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1a7f37">Вердикт-леджер</text>
+    <text x="858" y="86" text-anchor="middle" font-size="11" fill="#59636e">принят / отверг (почему)</text>
+    <text x="858" y="102" text-anchor="middle" font-size="11" fill="#59636e">по каждому пункту;</text>
+    <text x="858" y="118" text-anchor="middle" font-size="11" fill="#59636e">решает рассказчик</text>
+  </g>
+
+  <rect x="24" y="176" width="912" height="44" rx="10" fill="#ffebe9" stroke="#cf222e"/>
+  <text x="480" y="194" text-anchor="middle" font-size="12.5" font-weight="700" fill="#cf222e">Правило 1: Тайлер не трогает работу</text>
+  <text x="480" y="212" text-anchor="middle" font-size="11.5" fill="#cf222e">нет Edit / Write / Bash · не говорит с пользователем · ничего не блокирует · при нарушающем брифе — отказ со ссылкой на правило</text>
+
+  <rect x="24" y="238" width="912" height="30" rx="10" fill="#dafbe1" stroke="#1a7f37"/>
+  <text x="480" y="258" text-anchor="middle" font-size="12" fill="#1f2328">пользователю — одна строка, только если совет Тайлера изменил решение</text>
+
+  <text x="480" y="298" text-anchor="middle" font-size="11" fill="#59636e">вызывается на развилках (архитектура · риск · застрял · ревью плана · /tyler), бюджет — до ~2 вызовов на нетривиальную задачу</text>
+  <text x="480" y="318" text-anchor="middle" font-size="11" fill="#59636e">свежий взгляд: Тайлер видит бриф и файлы проекта, а не историю диалога</text>
+</svg>
